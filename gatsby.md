@@ -233,5 +233,15 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     }
 }
 ```
-
-
+Next, you will access the data inside the `node` object like this:
+```
+allMarkdownRemark(...) {
+    edges {
+        node {
+            fields {
+                slug
+            }
+        }
+    }
+}
+```
