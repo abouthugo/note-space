@@ -1,0 +1,4 @@
+# This is just like a .gitignore file any files/directories specified in here will be ignored when you create your image
+
+node_modules/
+npm-debug.log
